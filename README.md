@@ -1,24 +1,24 @@
-# ?? ProyectoVideojuegosP1
+#  ProyectoVideojuegosP1
 
-Proyecto de videojuego 3D desarrollado en **Unity 6** (6000.4.1f1) con estética retro **PSX** (PlayStation 1).
+Proyecto de videojuego 3D desarrollado en **Unity 6** (6000.4.1f1) con estÃ©tica retro **PSX** (PlayStation 1).
 
-## ?? Descripción
+##  DescripciÃ³n
 
-Juego de acción en 3D con vista top-down que incluye combate cuerpo a cuerpo, sistema de auto-apuntado, recolección de ítems y enfrentamiento contra jefes. El proyecto utiliza shaders estilo PSX para lograr una estética retro nostálgica.
+Juego de acciÃ³n en 3D con vista top-down que incluye combate cuerpo a cuerpo, sistema de auto-apuntado, recolecciÃ³n de Ã­tems y enfrentamiento contra jefes. El proyecto utiliza shaders estilo PSX para lograr una estÃ©tica retro nostÃ¡lgica.
 
-## ??? Características
+##  CaracterÃ­sticas
 
-- **Movimiento 3D** con físicas basadas en Rigidbody
+- **Movimiento 3D** con fÃ­sicas basadas en Rigidbody
 - **Sistema de combate** con ataques y auto-aim hacia enemigos
 - **Sistema de salud** para el jugador y enemigos
-- **Recolección de ítems** (pickups)
+- **RecolecciÃ³n de Ã­tems** (pickups)
 - **Zona de victoria** (WinZone)
-- **Cámara dinámica** con límites de seguimiento
-- **Game Manager** para gestión del estado del juego
-- **Estética retro PSX** con shaders personalizados (PSXShaderKit)
+- **CÃ¡mara dinÃ¡mica** con lÃ­mites de seguimiento
+- **Game Manager** para gestiÃ³n del estado del juego
+- **EstÃ©tica retro PSX** con shaders personalizados (PSXShaderKit)
 - **Skyboxes** incluidos (AllSkyFree)
 
-## ??? Estructura del Proyecto
+##  Estructura del Proyecto
 
 `
 Assets/
@@ -29,26 +29,26 @@ Assets/
 +-- Prefabs/         # Prefabs reutilizables
 +-- PSXShaderKit/    # Shaders estilo PlayStation 1
 +-- Scenes/          # Escenas del juego
-+-- Scripts/         # Lógica del juego (C#)
-¦   +-- AutoAimSystem.cs
-¦   +-- CameraFollowBounds.cs
-¦   +-- GameManager.cs
-¦   +-- HealthSystem.cs
-¦   +-- ItemPickup.cs
-¦   +-- PlayerCombat.cs
-¦   +-- PlayerMovement3D.cs
-¦   +-- WinZone.cs
++-- Scripts/         # LÃ³gica del juego (C#)
+Â¦   +-- AutoAimSystem.cs
+Â¦   +-- CameraFollowBounds.cs
+Â¦   +-- GameManager.cs
+Â¦   +-- HealthSystem.cs
+Â¦   +-- ItemPickup.cs
+Â¦   +-- PlayerCombat.cs
+Â¦   +-- PlayerMovement3D.cs
+Â¦   +-- WinZone.cs
 +-- SpriteSheets/    # Sprites (UI, enemigos, jugador, boss, FX)
 +-- Textures/        # Texturas adicionales
 +-- TextMesh Pro/    # Fuentes y shaders de texto
 `
 
-## ??? Requisitos
+##  Requisitos
 
 - **Unity 6** (6000.4.1f1 o superior)
 - **Plataforma:** Windows / macOS / Linux
 
-## ?? Cómo Ejecutar
+##  CÃ³mo Ejecutar
 
 1. Clona el repositorio:
    `ash
@@ -60,4 +60,4 @@ Assets/
 
 ## ?? Licencia
 
-Proyecto académico — Progreso 1.
+Proyecto acadÃ©mico â€” Progreso 1.
